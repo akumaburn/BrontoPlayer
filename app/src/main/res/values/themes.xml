@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+      The visible UI is entirely Compose + Material 3. This XML theme only needs to be a
+      no-action-bar surface; colors and dark/light handling are driven by Compose. The
+      activity calls enableEdgeToEdge(), so system bars are transparent.
+    -->
+    <style name="Theme.BrontoPlayer" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bronto_window_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+    </style>
+</resources>

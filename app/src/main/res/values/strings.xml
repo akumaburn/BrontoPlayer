@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BrontoPlayer</string>
+
+    <!-- Library -->
+    <string name="library_title">My Audiobooks</string>
+    <string name="library_empty_title">No audiobooks yet</string>
+    <string name="library_empty_subtitle">Tap + to add .m4b audiobooks from your device.</string>
+    <string name="add_books">Add audiobooks</string>
+    <string name="add_folder">Add a folder</string>
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="settings">Settings</string>
+    <string name="importing_books">Importing audiobooks…</string>
+    <string name="import_failed">Could not import: %1$s</string>
+    <string name="remove_from_library">Remove from library</string>
+    <string name="mark_finished">Mark as finished</string>
+    <string name="mark_unfinished">Mark as not finished</string>
+    <string name="finished">Finished</string>
+
+    <!-- Sorting -->
+    <string name="sort_recent">Recently played</string>
+    <string name="sort_added">Recently added</string>
+    <string name="sort_title">Title</string>
+    <string name="sort_author">Author</string>
+    <string name="sort_progress">Progress</string>
+
+    <!-- Player -->
+    <string name="now_playing">Now playing</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="rewind">Rewind</string>
+    <string name="fast_forward">Fast forward</string>
+    <string name="previous_chapter">Previous chapter</string>
+    <string name="next_chapter">Next chapter</string>
+    <string name="playback_speed">Playback speed</string>
+    <string name="sleep_timer">Sleep timer</string>
+    <string name="chapters">Chapters</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="add_bookmark">Add bookmark</string>
+    <string name="bookmark_added">Bookmark added</string>
+    <string name="chapter_count">%1$d chapters</string>
+    <string name="of_duration">%1$s / %2$s</string>
+
+    <!-- Sleep timer options -->
+    <string name="sleep_off">Off</string>
+    <string name="sleep_end_of_chapter">End of chapter</string>
+    <string name="sleep_minutes">%1$d min</string>
+    <string name="sleep_timer_active">Sleeping in %1$s</string>
+
+    <!-- Chapters -->
+    <string name="chapter_source_text">Chapter track</string>
+    <string name="chapter_source_nero">Nero chapters</string>
+    <string name="chapter_source_none">No chapters</string>
+    <string name="jump_to_chapter">Jump to chapter</string>
+
+    <!-- Bookmarks -->
+    <string name="bookmarks_empty">No bookmarks yet</string>
+    <string name="delete_bookmark">Delete bookmark</string>
+    <string name="edit_note">Edit note</string>
+    <string name="note_hint">Note (optional)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Settings -->
+    <string name="settings_playback">Playback</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_background">Background playback</string>
+    <string name="settings_about">About</string>
+    <string name="setting_default_speed">Default speed</string>
+    <string name="setting_skip_silence">Skip silence</string>
+    <string name="setting_skip_silence_summary">Shorten long silent gaps automatically</string>
+    <string name="setting_rewind_seconds">Rewind interval</string>
+    <string name="setting_forward_seconds">Forward interval</string>
+    <string name="setting_auto_rewind">Auto-rewind on resume</string>
+    <string name="setting_auto_rewind_summary">Rewind a few seconds each time you press play</string>
+    <string name="setting_seconds">%1$d s</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_dynamic_color">Dynamic color</string>
+    <string name="setting_dynamic_color_summary">Use colors from your wallpaper (Android 12+)</string>
+    <string name="theme_system">Follow system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- Permissions / background -->
+    <string name="perm_notifications_title">Notification permission</string>
+    <string name="perm_notifications_summary">Needed to show playback controls and keep audio running.</string>
+    <string name="perm_notifications_action">Grant</string>
+    <string name="perm_granted">Granted</string>
+    <string name="perm_battery_title">Ignore battery optimization</string>
+    <string name="perm_battery_summary">Let BrontoPlayer keep playing in the background without being stopped by the system.</string>
+    <string name="perm_battery_action">Allow background</string>
+    <string name="perm_battery_done">Background playback allowed</string>
+
+    <!-- About -->
+    <string name="about_version">Version %1$s</string>
+    <string name="about_license">Licensed under Apache License 2.0</string>
+    <string name="about_tagline">A focused, gentle audiobook player for .m4b files.</string>
+    <string name="about_title">About &amp; Support</string>
+    <string name="about_made_by">Made by Amir Eslampanah</string>
+    <string name="about_open_source">BrontoPlayer is free, ad-free, and open source.</string>
+    <string name="about_website">Visit my website</string>
+    <string name="about_website_url" translatable="false">https://amireslampanah.com</string>
+    <string name="about_github">View source on GitHub</string>
+    <string name="about_github_url" translatable="false">https://github.com/akumaburn/BrontoPlayer</string>
+    <string name="about_website_failed">Couldn\'t open a browser on this device.</string>
+    <string name="settings_about_summary">Version %1$s · Apache-2.0 · Leave a tip</string>
+
+    <!-- Donations (optional tips — consumable, unlock nothing) -->
+    <string name="donate_title">Leave a tip</string>
+    <string name="donate_blurb">BrontoPlayer is free, ad-free, and open source. If it has brightened your listening, you can leave a small tip. It unlocks nothing — it\'s simply a thank-you that helps support development.</string>
+    <string name="donate_action">Tip</string>
+    <string name="donate_tier_small">A cup of coffee</string>
+    <string name="donate_tier_medium">A hearty lunch</string>
+    <string name="donate_tier_large">A nice dinner</string>
+    <string name="donate_secure_note">Tips are handled securely by Google Play and unlock nothing — they are purely a thank-you.</string>
+    <string name="donate_thanks">Thank you so much for your support! 🦕</string>
+    <string name="donate_pending">Your tip is pending — thank you!</string>
+    <string name="donate_unavailable">Tips aren\'t available right now. Make sure you installed BrontoPlayer from Google Play.</string>
+
+    <!-- Accessibility / notification -->
+    <string name="notification_channel_name">Playback</string>
+    <string name="notification_channel_description">Audiobook playback controls</string>
+    <string name="cover_art">Cover art</string>
+    <string name="back">Back</string>
+    <string name="more_options">More options</string>
+</resources>

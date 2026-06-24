@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window background used before Compose draws (light). values-night overrides it. -->
+    <color name="bronto_window_background">#FFFFF8F4</color>
+    <!-- Adaptive launcher icon background: warm leather brown. -->
+    <color name="bronto_icon_background">#FF6D4528</color>
+</resources>

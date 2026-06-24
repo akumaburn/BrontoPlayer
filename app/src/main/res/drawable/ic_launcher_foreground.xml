@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- An open book with a bookmark ribbon, sized within the adaptive-icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Left page -->
+    <path
+        android:fillColor="#F6E8D2"
+        android:pathData="M53,44 C44,38 33,37 23,41 L23,71 C33,67 44,68 53,73 Z" />
+    <!-- Right page -->
+    <path
+        android:fillColor="#F6E8D2"
+        android:pathData="M55,44 C64,38 75,37 85,41 L85,71 C75,67 64,68 55,73 Z" />
+
+    <!-- Subtle text lines -->
+    <path
+        android:fillColor="#D8B48C"
+        android:pathData="M30,49 h16 v2.6 h-16 z M30,56 h16 v2.6 h-16 z M30,63 h13 v2.6 h-13 z
+            M62,49 h16 v2.6 h-16 z M62,56 h16 v2.6 h-16 z M65,63 h13 v2.6 h-13 z" />
+
+    <!-- Bookmark ribbon -->
+    <path
+        android:fillColor="#D2603F"
+        android:pathData="M50.5,35 L57.5,35 L57.5,61 L54,56 L50.5,61 Z" />
+</vector>

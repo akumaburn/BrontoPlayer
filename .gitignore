@@ -1,0 +1,53 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle
+.gradle/
+build/
+m4b/build/
+m4b/.gradle/
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# macOS / Linux
+.DS_Store
+*~
+
+# Keystore files & signing credentials (NEVER commit signing keys/passwords)
+*.jks
+*.keystore
+!debug.keystore
+keystore.properties
+
+# Log/temp files
+*.log
+
+# Local-only personal publishing guide (not for the public repo)
+PUBLISHING.html
+
+# Play Store listing assets (generated locally, not for the public repo)
+publishing/
